@@ -1,0 +1,78 @@
+html {
+    height: 100vh;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+body {
+    padding: 10px;
+    background: rgb(250,186,220);
+	background: linear-gradient(173deg, rgba(250,186,220,1) 18%, rgba(207,189,227,1) 49%, rgba(164,191,234,1) 87%);
+	
+}
+.container{
+	margin: auto;
+	background:white;
+	max-width:400px;
+	height:300px;
+	padding:100px;
+	border:solid 3px #545b92;
+	border-radius:10px;
+	
+}
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+
+}
+
+#push-btn,#unshift-btn {
+    background-color:#f092cd ;
+	border:solid 3px ;
+	color:#34002b;
+}
+
+#shift-btn,#pop-btn {
+    background-color:#97aeeb ;
+	border:solid 3px ;
+	color:#0f1b54;
+	
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: #b7a6e5;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background:#fce5f8 ;
+    border-radius: 6px;
+    text-align: center;
+	font-family:'BhuTuka Expanded One', cursive;
+	font-weight:bold;
+}
+
+button {
+    font-family: 'BhuTuka Expanded One', cursive;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
+
